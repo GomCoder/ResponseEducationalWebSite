@@ -6,10 +6,328 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resposive Education Web Site</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css" />
+
     <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"
+        integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!--header >> Logo & Navigation-->
+    <header>
+        <nav>
+            <!-- Logo -->
+            <img src="images/logo.svg" alt="LogoImage">
+            <!-- Navigation Bar -->
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="/images/menu.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <!-- Contents >> Home -->
+    <section id="home">
+        <h2>Enhance Your Future With TechEducation</h2>
+        <p> There are many variations of passages of Lorem Ipsum available,
+            but the majority have suffered alteration in some form, by injected humour,
+            or randomised words which don't look even slightly believable. </p>
+        <!-- Button -->
+        <div class="btn">
+            <a class="blue" href="#">Learn More</a>
+            <a class="yellow" href="#">Visit Courses</a>
+        </div>
+    </section>
+
+    <!-- Contents >> Features -->
+    <section id="features">
+        <h1>Awsome Features</h1>
+        <p>There are many variations of passages of Lorem Ipsum available</p>
+
+        <div class="fea-base">
+            <!-- Card01 -->
+            <div class="fea-box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Scholarship Facility</h3>
+                <p>There are many variations of passages of Lorem Ipsum available,
+                    but the majority</p>
+            </div>
+            <!-- Card02 -->
+            <div class="fea-box">
+                <i class="fa-solid fa-file-circle-check"></i>
+                <h3>Dell Online Courses</h3>
+                <p>There are many variations of passages of Lorem Ipsum available,
+                    but the majority</p>
+            </div>
+            <!-- Card03 -->
+            <div class="fea-box">
+                <i class="fas fa-award"></i>
+                <h3>Grobal certifications</h3>
+                <p>There are many variations of passages of Lorem Ipsum available,
+                    but the majority</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contents >> Courses -->
+    <section id="course">
+        <h1>Our Popular Courses</h1>
+        <p>There are many variations of passages of Lorem Ipsum available</p>
+        <div class="course-box">
+            <div class="courses">
+                <img src="/images/c1.jpg" alt="Course01Image">
+                <div class="details">
+                    <span>Updated 22/12/17</span>
+                    <h6>Javacript Beginner Course</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(239)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    ₩49.99
+                </div>
+            </div>
+            <div class="courses">
+                <img src="/images/c2.jpg" alt="Course01Image">
+                <div class="details">
+                    <span>Updated 22/12/17</span>
+                    <h6>Javacript Beginner Course</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(239)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    ₩49.99
+                </div>
+            </div>
+            <div class="courses">
+                <img src="/images/c3.jpg" alt="Course01Image">
+                <div class="details">
+                    <span>Updated 22/12/17</span>
+                    <h6>Javacript Beginner Course</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(239)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    ₩49.99
+                </div>
+            </div>
+            <div class="courses">
+                <img src="/images/c4.jpg" alt="Course01Image">
+                <div class="details">
+                    <span>Updated 22/12/17</span>
+                    <h6>Javacript Beginner Course</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(239)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    ₩49.99
+                </div>
+            </div>
+            <div class="courses">
+                <img src="/images/c5.jpg" alt="Course01Image">
+                <div class="details">
+                    <span>Updated 22/12/17</span>
+                    <h6>Javacript Beginner Course</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(239)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    ₩49.99
+                </div>
+            </div>
+            <div class="courses">
+                <img src="/images/c6.jpg" alt="Course01Image">
+                <div class="details">
+                    <span>Updated 22/12/17</span>
+                    <h6>Javacript Beginner Course</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(239)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    ₩49.99
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contents >> Registration -->
+    <section id="registration">
+        <div class="reminder">
+            <p>Get 100 Online Course for Free</p>
+            <h1>Registar To Get It</h1>
+            <div class="time">
+                <div class="date">
+                    18 <br> Days
+                </div>
+                <div class="date">
+                    23 <br> Hours
+                </div>
+                <div class="date">
+                    06 <br> Mins
+                </div>
+                <div class="date">
+                    58 <br> Secs
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <h3>Create Free Account NOW!</h3>
+            <input type="text" placeholder="Name" name="" id="">
+            <input type="text" placeholder="E-mail Address" name="" id="">
+            <input type="text" placeholder="Phone Number" name="" id="">
+            <div class="btn">
+                <a href="#" class="yellow">Submit Form</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contents >> Profiles -->
+    <section id="experts">
+        <h1>Comunity Experts</h1>
+        <p>There are many variations of passages of Lorem Ipsum available</p>
+        <div class="expert-box">
+            <div class="profile">
+                <img src="/images/pro1.webp" alt="">
+                <h6>Ema Irnik</h6>
+                <p>Python & Algorithm Expert</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="/images/pro2.webp" alt="">
+                <h6>Jason</h6>
+                <p>Data Analysis Expert</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="/images/pro3.webp" alt="">
+                <h6>Maalik</h6>
+                <p>Full Stack Developer</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="/images/pro4.webp" alt="">
+                <h6>Jennifer</h6>
+                <p>eDesign Expert</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <Footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Term of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>News Letter</h3>
+            <p>You can trust us. we only send promo offers.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your E-mail Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ⓒ2021 All rights reserved | This template is made by Tech2etc</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </Footer>
+
+    <!-- Screen Size가 max 769일 때 메뉴 버튼 제어 -->
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        })
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        })
+    </script>
 
 </body>
 
